@@ -4,6 +4,12 @@
 **전체 18장(S00–S17)** 과 **하이라이트 샘플 6장(H00–H05)** 이 구현되어 있습니다.
 전체 덱은 `slides/index.html`, 샘플은 `slides/highlight.html`입니다.
 
+## 배포
+- 전체 덱: https://ckzi-su.github.io/online-clothing-channel-deck/
+- PPT 테마: https://ckzi-su.github.io/online-clothing-channel-deck/?theme=ppt
+- 하이라이트 샘플: https://ckzi-su.github.io/online-clothing-channel-deck/highlight.html
+- 저장소: https://github.com/ckzi-su/online-clothing-channel-deck
+
 ## 한눈에 보는 구조
 
 ```
