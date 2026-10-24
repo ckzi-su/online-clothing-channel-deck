@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>온라인 의류 시장, 채널보다 접점인가 — 전체 덱</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="assets/css/deck.css" />
+</head>
+<body data-theme="figma">
+  <main class="deck" id="deck">
+
+    <section class="slide cover active" id="S00" data-tone="navy">
+      <span class="slide-no">S00</span>
+      <p class="eyebrow">중간고사 발표 · 데이터 분석 입문</p>
+      <h1 id="coverTitle">온라인 의류 시장,<br />채널보다 접점인가</h1>
+      <p class="lead" id="coverLead">온라인 전용몰과 온·오프라인 병행몰의 의류 거래 비교</p>
+      <div class="cover-meta" id="coverMeta">
+        <span class="pill">2026.03–08</span>
+        <span class="pill ghost">잠정치 포함</span>
+        <span class="pill ghost">단위: 백만 원</span>
+      </div>
+      <p class="cover-foot">데이터 분석을 처음 배우는 분들을 위한 15분 발표</p>
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01]
+      </footer>
+    </section>
+
+    <section class="slide" id="S01" data-tone="plain">
+      <span class="slide-no">S01</span>
+      <header class="slide-head">
+        <p class="eyebrow">01 · 문제 제기</p>
+        <h2>왜 의류인가</h2>
+        <p class="lead">
+          의류는 2026년 8월 온라인 거래액 <strong>1.33조 원</strong>,
+          23개 상품군 중 <strong>7위</strong>입니다. 온라인과 오프라인 접점을 함께 비교해 보기 좋은 카테고리로 선택했습니다.
+        </p>
+      </header>
+
+      <div class="chart-layout">
+        <div class="chart-card rank-card">
+          <div class="chart-label">
+            <span>2026-08 온라인 거래액 상위 7개 (조 원)</span>
+            <span>p)</span>
+          </div>
+          <div class="rank-list">
+            <div class="rank-row"><span class="rank-label">음식서비스</span><div class="rank-track"><div class="rank-bar" style="--w:99.2%"></div></div><span class="rank-value">3.97</span></div>
+            <div class="rank-row"><span class="rank-label">음·식료품</span><div class="rank-track"><div class="rank-bar" style="--w:88.6%"></div></div><span class="rank-value">3.54</span></div>
+            <div class="rank-row"><span class="rank-label">여행·교통</span><div class="rank-track"><div class="rank-bar" style="--w:82.0%"></div></div><span class="rank-value">3.28</span></div>
+            <div class="rank-row"><span class="rank-label">가전·전자</span><div class="rank-track"><div class="rank-bar" style="--w:53.2%"></div></div><span class="rank-value">2.13</span></div>
+            <div class="rank-row"><span class="rank-label">생활용품</span><div class="rank-track"><div class="rank-bar" style="--w:44.8%"></div></div><span class="rank-value">1.79</span></div>
+            <div class="rank-row"><span class="rank-label">농축수산물</span><div class="rank-track"><div class="rank-bar" style="--w:33.7%"></div></div><span class="rank-value">1.35</span></div>
+            <div class="rank-row highlight"><span class="rank-label">의복</span><div class="rank-track"><div class="rank-bar" style="--w:33.2%"></div></div><span class="rank-value">1.33</span></div>
+          </div>
+          <p class="axis-note">막대 길이는 4조 원을 100%로 한 상대 크기입니다. 7·8월은 잠정치(p)입니다.</p>
+        </div>
+        <aside class="kpi-col">
+          <div class="kpi">
+            <span class="kpi-value" style="color: var(--accent);">1.33조</span>
+            <span class="kpi-label">의류 온라인 거래액 · 2026-08 p)</span>
+          </div>
+          <div class="stat-list">
+            <div class="stat-row"><span>상품군 순위</span><b>7위 / 23개</b></div>
+            <div class="stat-row"><span>전체 온라인 거래 비중</span><b>5.48%</b></div>
+            <div class="stat-row"><span>분석 기간</span><b>6개월</b></div>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01] · 단위: 백만 원
+      </footer>
+    </section>
+
+    <section class="slide" id="S02" data-tone="cream">
+      <span class="slide-no">S02</span>
+      <header class="slide-head">
+        <p class="eyebrow">02 · 데이터와 방법</p>
+        <h2>무엇을 비교했나</h2>
+        <p class="lead">
+          같은 기간, 같은 상품군(의복)에서 <strong>온라인 전용몰</strong>과
+          <strong>온·오프라인 병행몰</strong>의 온라인 거래액을 비교합니다.
+        </p>
+      </header>
+
+      <div class="caution-grid" style="margin-top: 28px;">
+        <article class="caution-card">
+          <span class="num">기간</span>
+          <h3>2026.03–08</h3>
+          <p>6개월 월별 자료입니다. 7월과 8월은 잠정치(p)라서 이후 수정될 수 있습니다.</p>
+          <span class="card-foot">→ 7·8월은 p) 표기</span>
+        </article>
+        <article class="caution-card">
+          <span class="num">단위</span>
+          <h3>백만 원</h3>
+          <p>슬라이드에서는 읽기 쉽게 조 원으로 바꿔 표기합니다. 1조 = 1,000,000백만 원입니다.</p>
+          <span class="card-foot">→ 2.02조 = 2,021,047백만 원</span>
+        </article>
+        <article class="caution-card">
+          <span class="num">채널</span>
+          <h3>둘 다 온라인</h3>
+          <p>전용몰은 온라인만, 병행몰은 오프라인 매장도 운영하는 사업자의 온라인 거래입니다.</p>
+          <span class="card-foot">→ 병행몰 ≠ 오프라인 매출</span>
+        </article>
+      </div>
+
+      <p class="method-banner">
+        <strong>가장 중요한 주의:</strong> 이 통계는 온라인 거래만 집계합니다.
+        “병행몰이 더 잘 팔렸다”는 말은 “병행몰의 <strong>온라인</strong> 거래가 덜 줄었다”로만 읽어야 합니다.
+        또한 이 발표는 기술적 비교이며, 인과관계를 증명하는 실험이 아닙니다.
+      </p>
+
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01] · 통계표 DT_1KE10051
+      </footer>
+    </section>
+
+    <section class="slide" id="S03" data-tone="lilac">
+      <span class="slide-no">S03</span>
+      <header class="slide-head">
+        <p class="eyebrow">03 · 규모</p>
+        <h2>6개월 만에 1/3이 사라졌다</h2>
+        <p class="lead">
+          의류 온라인 거래액은 3월 2.02조 원에서 8월 1.33조 원으로 줄었습니다.
+          <strong>34.38% 감소</strong>입니다.
+        </p>
+      </header>
+
+      <div class="chart-layout">
+        <div class="chart-card">
+          <div class="chart-label">
+            <span>의류 온라인 거래액 (조 원)</span>
+            <span>2026.03–08</span>
+          </div>
+          <svg id="trendChart" viewBox="0 0 760 320" role="img" aria-label="2026년 3월부터 8월까지 의류 온라인 거래액 추이">
+            <g class="grid">
+              <line x1="60" y1="220.9" x2="710" y2="220.9" />
+              <line x1="60" y1="161.8" x2="710" y2="161.8" />
+              <line x1="60" y1="102.7" x2="710" y2="102.7" />
+              <line x1="60" y1="43.6" x2="710" y2="43.6" />
+              <text x="48" y="224.9" text-anchor="end">0.5</text>
+              <text x="48" y="165.8" text-anchor="end">1.0</text>
+              <text x="48" y="106.7" text-anchor="end">1.5</text>
+              <text x="48" y="47.6" text-anchor="end">2.0</text>
+            </g>
+            <line x1="60" y1="280" x2="710" y2="280" class="axis" />
+            <path id="trendArea" d="M 60,41.1 L 190,39.1 L 320,45.3 L 450,49.9 L 580,85.7 L 710,123.3 L 710,280 L 60,280 Z" />
+            <path id="trendLine" d="M 60,41.1 L 190,39.1 L 320,45.3 L 450,49.9 L 580,85.7 L 710,123.3" />
+            <g class="dots">
+              <circle class="trend-dot" cx="60" cy="41.1" r="5.5" />
+              <circle class="trend-dot" cx="190" cy="39.1" r="5.5" />
+              <circle class="trend-dot" cx="320" cy="45.3" r="5.5" />
+              <circle class="trend-dot" cx="450" cy="49.9" r="5.5" />
+              <circle class="trend-dot" cx="580" cy="85.7" r="5.5" />
+              <circle class="trend-dot" cx="710" cy="123.3" r="5.5" />
+            </g>
+            <g id="trendCallout">
+              <line x1="710" y1="123.3" x2="650" y2="150" class="callout-line" />
+              <rect x="540" y="150" width="148" height="30" rx="6" />
+              <text x="614" y="169" text-anchor="middle">8월 1.33조 (p)</text>
+            </g>
+            <g class="x-labels">
+              <text x="60" y="304" text-anchor="middle">3월</text>
+              <text x="190" y="304" text-anchor="middle">4월</text>
+              <text x="320" y="304" text-anchor="middle">5월</text>
+              <text x="450" y="304" text-anchor="middle">6월</text>
+              <text x="580" y="304" text-anchor="middle">7월 p)</text>
+              <text x="710" y="304" text-anchor="middle">8월 p)</text>
+            </g>
+          </svg>
+          <p class="axis-note">세로축: 조 원. 7·8월은 잠정치(p)입니다.</p>
+        </div>
+        <aside class="kpi-col">
+          <div class="kpi">
+            <span class="kpi-value" id="trendCounter" data-count="-34.38" data-decimals="2">0.00%</span>
+            <span class="kpi-label">3월 → 8월 누적</span>
+          </div>
+          <div class="stat-list">
+            <div class="stat-row"><span>3월</span><b>2.02조</b></div>
+            <div class="stat-row"><span>8월 (p)</span><b>1.33조</b></div>
+            <div class="stat-row"><span>감소액</span><b>0.69조</b></div>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01] · 단위: 백만 원
+      </footer>
+    </section>
+
+    <section class="slide" id="S04" data-tone="cream">
+      <span class="slide-no">S04</span>
+      <header class="slide-head">
+        <p class="eyebrow">04 · 채널</p>
+        <h2>누적 기준, 병행몰이 덜 줄었다</h2>
+        <p class="lead">
+          3월을 100으로 두면, 전용몰은 62.1, 병행몰은 70.5가 됐습니다.
+          <strong>전용몰 -37.94%, 병행몰 -29.53%</strong>입니다.
+        </p>
+      </header>
+
+      <div class="chart-layout">
+        <div class="chart-card">
+          <div class="chart-label">
+            <span>3월 = 100으로 맞춘 비교 값</span>
+            <span class="legend">
+              <span><i class="swatch a"></i>온라인 전용몰</span>
+              <span><i class="swatch b"></i>온·오프라인 병행몰</span>
+            </span>
+          </div>
+          <svg viewBox="0 0 760 320" role="img" aria-label="3월을 100으로 둔 의류 온라인 거래 지수 추이">
+            <g class="grid">
+              <line x1="60" y1="248.2" x2="660" y2="248.2" />
+              <line x1="60" y1="204.5" x2="660" y2="204.5" />
+              <line x1="60" y1="160.9" x2="660" y2="160.9" />
+              <line x1="60" y1="117.3" x2="660" y2="117.3" />
+              <line x1="60" y1="73.6" x2="660" y2="73.6" class="baseline" />
+              <line x1="60" y1="30" x2="660" y2="30" />
+              <text x="48" y="252.2" text-anchor="end">60</text>
+              <text x="48" y="208.5" text-anchor="end">70</text>
+              <text x="48" y="164.9" text-anchor="end">80</text>
+              <text x="48" y="121.3" text-anchor="end">90</text>
+              <text x="48" y="77.6" text-anchor="end">100</text>
+              <text x="48" y="34" text-anchor="end">110</text>
+            </g>
+            <path id="onlineLine" d="M 60,73.6 L 180,86.7 L 300,92.1 L 420,110.4 L 540,180.7 L 660,239.2" class="line-a" />
+            <path id="omniLine" d="M 60,73.6 L 180,46.8 L 300,66.3 L 420,61.3 L 540,120.2 L 660,202.5" class="line-b" />
+            <g class="dots">
+              <circle class="dot-a" cx="60" cy="73.6" r="5" />
+              <circle class="dot-a" cx="180" cy="86.7" r="5" />
+              <circle class="dot-a" cx="300" cy="92.1" r="5" />
+              <circle class="dot-a" cx="420" cy="110.4" r="5" />
+              <circle class="dot-a" cx="540" cy="180.7" r="5" />
+              <circle class="dot-a" cx="660" cy="239.2" r="5" />
+              <circle class="dot-b" cx="60" cy="73.6" r="5" />
+              <circle class="dot-b" cx="180" cy="46.8" r="5" />
+              <circle class="dot-b" cx="300" cy="66.3" r="5" />
+              <circle class="dot-b" cx="420" cy="61.3" r="5" />
+              <circle class="dot-b" cx="540" cy="120.2" r="5" />
+              <circle class="dot-b" cx="660" cy="202.5" r="5" />
+            </g>
+            <g id="slopeLabels">
+              <text x="672" y="243" text-anchor="start" class="label-a">전용몰 62.1</text>
+              <text x="672" y="206" text-anchor="start" class="label-b">병행몰 70.5</text>
+            </g>
+            <g class="x-labels">
+              <text x="60" y="304" text-anchor="middle">3월</text>
+              <text x="180" y="304" text-anchor="middle">4월</text>
+              <text x="300" y="304" text-anchor="middle">5월</text>
+              <text x="420" y="304" text-anchor="middle">6월</text>
+              <text x="540" y="304" text-anchor="middle">7월 p)</text>
+              <text x="660" y="304" text-anchor="middle">8월 p)</text>
+            </g>
+          </svg>
+          <p class="axis-note">점선은 3월(=100) 기준선입니다. 두 선의 간격이 벌어질수록 두 채널의 변화 차이가 큽니다.</p>
+        </div>
+        <aside class="kpi-col">
+          <div class="kpi">
+            <span class="kpi-value" id="onlineCounter" data-count="-37.94" data-decimals="2" style="color: var(--chart-a);">0.00%</span>
+            <span class="kpi-label">온라인 전용몰</span>
+          </div>
+          <div class="kpi">
+            <span class="kpi-value" id="omniCounter" data-count="-29.53" data-decimals="2" style="color: var(--chart-b);">0.00%</span>
+            <span class="kpi-label">온·오프라인 병행몰</span>
+          </div>
+          <div class="share-meter">
+            <div class="share-track"><div class="share-fill" id="shareFill"></div></div>
+            <div class="share-caption"><span>3월 42.4%</span><span>8월 45.6%</span></div>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01] · 병행몰 비중은 의류 온라인 거래액 대비
+      </footer>
+    </section>
+
+    <section class="slide" id="S05" data-tone="plain">
+      <span class="slide-no">S05</span>
+      <header class="slide-head">
+        <p class="eyebrow">05 · 점유율</p>
+        <h2>병행몰 비중은 45.6%까지 올랐다</h2>
+        <p class="lead">
+          3월 42.42%에서 8월 45.55%로 <strong>3.13%p 상승</strong>했습니다.
+          7월에는 46.58%로 정점이었습니다.
+        </p>
+      </header>
+
+      <div class="chart-layout">
+        <div class="chart-card">
+          <div class="chart-label">
+            <span>의류 온라인 거래 중 병행몰 비중 (%)</span>
+            <span class="legend">
+              <span><i class="swatch a"></i>전용몰</span>
+              <span><i class="swatch b"></i>병행몰</span>
+            </span>
+          </div>
+          <div class="share-columns">
+            <div class="share-col"><span class="share-value">42.4</span><div class="share-stack"><div class="share-omni" style="height: 42.42%;"></div><div class="share-half"></div></div><span class="share-month">3월</span></div>
+            <div class="share-col"><span class="share-value">44.6</span><div class="share-stack"><div class="share-omni" style="height: 44.64%;"></div><div class="share-half"></div></div><span class="share-month">4월</span></div>
+            <div class="share-col"><span class="share-value">43.9</span><div class="share-stack"><div class="share-omni" style="height: 43.89%;"></div><div class="share-half"></div></div><span class="share-month">5월</span></div>
+            <div class="share-col"><span class="share-value">45.3</span><div class="share-stack"><div class="share-omni" style="height: 45.27%;"></div><div class="share-half"></div></div><span class="share-month">6월</span></div>
+            <div class="share-col"><span class="share-value">46.6</span><div class="share-stack"><div class="share-omni" style="height: 46.58%;"></div><div class="share-half"></div></div><span class="share-month">7월 p)</span></div>
+            <div class="share-col"><span class="share-value">45.6</span><div class="share-stack"><div class="share-omni" style="height: 45.55%;"></div><div class="share-half"></div></div><span class="share-month">8월 p)</span></div>
+          </div>
+          <p class="axis-note">막대 전체가 100%입니다. 아래쪽(마젠타)이 병행몰, 위쪽(네이비)이 전용몰입니다. 점선은 50% 기준선입니다.</p>
+        </div>
+        <aside class="kpi-col">
+          <div class="kpi">
+            <span class="kpi-value" style="color: var(--accent);">+3.13%p</span>
+            <span class="kpi-label">3월 → 8월 병행몰 비중</span>
+          </div>
+          <div class="stat-list">
+            <div class="stat-row"><span>3월</span><b>42.42%</b></div>
+            <div class="stat-row"><span>7월 (정점)</span><b>46.58%</b></div>
+            <div class="stat-row"><span>8월 (p)</span><b>45.55%</b></div>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01] · 단위: %
+      </footer>
+    </section>
+
+    <section class="slide" id="S06" data-tone="plain">
+      <span class="slide-no">S06</span>
+      <header class="slide-head">
+        <p class="eyebrow">06 · 반전</p>
+        <h2>8월에는 순서가 뒤집혔다</h2>
+        <p class="lead">
+          7월에는 병행몰이 덜 줄었지만, 8월에는 병행몰이 더 크게 줄었습니다.
+          <strong>한 달만 보면 결론이 달라집니다.</strong>
+        </p>
+      </header>
+
+      <div class="video-layout">
+        <div class="video-card">
+          <video id="phaseVideo" src="assets/video/phase_reversal.mp4" poster="assets/video/phase_poster.png" autoplay muted loop playsinline aria-label="7월과 8월의 채널별 감소율 애니메이션"></video>
+        </div>
+        <aside class="side-stack">
+          <div class="mini-stat">
+            <span>7월 · 전월 대비</span>
+            <b>전용 -17.6% / 병행 -13.1%</b>
+          </div>
+          <div class="mini-stat">
+            <span>8월 · 전월 대비</span>
+            <b class="accent">전용 -17.8% / 병행 -21.1%</b>
+          </div>
+          <div class="mini-stat">
+            <span>8월 병행몰 비중</span>
+            <b>45.55%</b>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01] · 7·8월은 잠정치(p)
+      </footer>
+    </section>
+
+    <section class="slide" id="S07" data-tone="mint">
+      <span class="slide-no">S07</span>
+      <header class="slide-head">
+        <p class="eyebrow">07 · 기여도</p>
+        <h2>감소액의 64%는 전용몰에서 나왔다</h2>
+        <p class="lead">
+          3→8월 의류 온라인 거래액은 0.69조 원 줄었고, 그중
+          <strong>63.55%가 전용몰</strong>, 36.45%가 병행몰에서 발생했습니다.
+        </p>
+      </header>
+
+      <div class="chart-layout">
+        <div class="chart-card contrib-card">
+          <div class="chart-label">
+            <span>3→8월 감소액 기여도</span>
+            <span>합계 0.69조 원</span>
+          </div>
+          <div class="contrib-wrap">
+            <div class="contrib-bar">
+              <div class="contrib-seg a"></div>
+              <div class="contrib-seg b"></div>
+            </div>
+            <div class="contrib-legend">
+              <span><i class="swatch a"></i>전용몰 <b>63.55%</b> · 0.44조</span>
+              <span><i class="swatch b"></i>병행몰 <b>36.45%</b> · 0.25조</span>
+            </div>
+          </div>
+          <div class="stat-list" style="margin-top: 24px; border-top: 0; padding-top: 0;">
+            <div class="stat-row"><span>3월 전체</span><b>2.02조</b></div>
+            <div class="stat-row"><span>8월 전체 (p)</span><b>1.33조</b></div>
+            <div class="stat-row"><span>감소액</span><b>0.69조</b></div>
+          </div>
+          <p class="axis-note">기여도 = 각 채널 감소액 ÷ 전체 감소액 × 100. 비중(45.6%)과 기여도(36.5%)는 다른 개념입니다.</p>
+        </div>
+        <aside class="kpi-col">
+          <div class="kpi">
+            <span class="kpi-value" style="color: var(--chart-a);">63.55%</span>
+            <span class="kpi-label">전용몰의 감소 기여</span>
+          </div>
+          <div class="kpi">
+            <span class="kpi-value" style="color: var(--chart-b);">36.45%</span>
+            <span class="kpi-label">병행몰의 감소 기여</span>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01] · 단위: 백만 원
+      </footer>
+    </section>
+
+    <section class="slide" id="S08" data-tone="mint">
+      <span class="slide-no">S08</span>
+      <header class="slide-head">
+        <p class="eyebrow">08 · 카테고리</p>
+        <h2>패션은 병행몰 비중이 두 배</h2>
+        <p class="lead">
+          의복·가방·패션용품·신발의 병행몰 비중은 <strong>47.0%</strong>,
+          전체 상품군 평균은 <strong>22.5%</strong>입니다.
+        </p>
+      </header>
+
+      <div class="category-layout">
+        <div class="category-figure">
+          <img id="categoryChart" src="assets/charts/category_omni_figma.svg" alt="2026년 8월 상품군별 병행몰 비중: 가방 54.7%, 패션용품 49.4%, 의복 45.6%, 신발 44.9%, 전체 평균 22.5%" />
+          <span class="callout" id="categoryCallout" style="right: 20px; top: 18px;">의복 45.6%</span>
+        </div>
+        <aside class="kpi-col">
+          <div class="kpi">
+            <span class="kpi-value" style="color: var(--accent);">47.0%</span>
+            <span class="kpi-label">패션 4군 병행몰 비중</span>
+          </div>
+          <div class="stat-list">
+            <div class="stat-row"><span>전체 평균</span><b>22.5%</b></div>
+            <div class="stat-row"><span>의복</span><b>45.6%</b></div>
+            <div class="stat-row"><span>가방</span><b>54.7%</b></div>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01] · 패션 4군은 의복·가방·패션용품·신발의 가중 평균
+      </footer>
+    </section>
+
+    <section class="slide" id="S09" data-tone="plain">
+      <span class="slide-no">S09</span>
+      <header class="slide-head">
+        <p class="eyebrow">09 · 포지션</p>
+        <h2>상위권 규모 + 높은 비중은 의류와 여행 정도</h2>
+        <p class="lead">
+          가로축은 거래액, 세로축은 병행몰 비중입니다. 규모 상위권 상품군 중
+          병행몰 비중이 높은 것은 <strong>의류와 여행서비스</strong> 정도입니다.
+        </p>
+      </header>
+
+      <div class="chart-layout">
+        <div class="chart-card">
+          <div class="chart-label">
+            <span>2026-08 p) 상품군 포지션</span>
+            <span class="legend">
+              <span><i class="swatch b"></i>패션 4군</span>
+              <span><i class="swatch a"></i>기타</span>
+            </span>
+          </div>
+          <svg id="scatterChart" viewBox="0 0 760 320" role="img" aria-label="상품군별 거래액과 병행몰 비중 산점도">
+            <g class="scatter-grid">
+              <line x1="60" y1="280" x2="710" y2="280" />
+              <line x1="60" y1="200" x2="710" y2="200" />
+              <line x1="60" y1="120" x2="710" y2="120" />
+              <line x1="60" y1="40" x2="710" y2="40" />
+              <line x1="60" y1="40" x2="60" y2="280" />
+              <line x1="222.5" y1="40" x2="222.5" y2="280" />
+              <line x1="385" y1="40" x2="385" y2="280" />
+              <line x1="547.5" y1="40" x2="547.5" y2="280" />
+              <line x1="710" y1="40" x2="710" y2="280" />
+            </g>
+            <line x1="60" y1="189.9" x2="710" y2="189.9" class="scatter-avg" />
+            <text x="66" y="185">전체 평균 22.5%</text>
+            <g class="scatter-axis">
+              <line x1="60" y1="280" x2="710" y2="280" />
+              <line x1="60" y1="40" x2="60" y2="280" />
+            </g>
+            <text x="60" y="306" text-anchor="middle">0</text>
+            <text x="222.5" y="306" text-anchor="middle">1조</text>
+            <text x="385" y="306" text-anchor="middle">2조</text>
+            <text x="547.5" y="306" text-anchor="middle">3조</text>
+            <text x="710" y="306" text-anchor="middle">4조</text>
+            <text x="48" y="284" text-anchor="end">0</text>
+            <text x="48" y="204" text-anchor="end">20</text>
+            <text x="48" y="124" text-anchor="end">40</text>
+            <text x="48" y="44" text-anchor="end">60</text>
+            <text x="710" y="24" text-anchor="end">병행몰 비중 (%)</text>
+
+            <circle class="scatter-fashion" cx="93.8" cy="61.2" r="6" />
+            <circle class="scatter-fashion" cx="117.2" cy="82.2" r="6" />
+            <circle class="scatter-fashion" cx="100.6" cy="100.4" r="6" />
+            <circle class="scatter-fashion" cx="275.5" cy="97.8" r="8" />
+            <circle class="scatter-dot" cx="592.7" cy="74.8" r="7" />
+            <circle class="scatter-dot" cx="704.7" cy="263.5" r="6" />
+            <circle class="scatter-dot" cx="635.7" cy="242.2" r="6" />
+            <circle class="scatter-dot" cx="350.9" cy="249.6" r="6" />
+            <circle class="scatter-dot" cx="405.4" cy="213.2" r="6" />
+
+            <text class="scatter-label fashion" x="102" y="57">가방</text>
+            <text class="scatter-label fashion" x="126" y="78">패션용품</text>
+            <text class="scatter-label fashion" x="109" y="114">신발</text>
+            <text class="scatter-label fashion strong" x="286" y="102">의복 45.6%</text>
+            <text class="scatter-label strong" x="602" y="70">여행 51.3%</text>
+            <text class="scatter-label" x="694" y="268" text-anchor="end">음식서비스 4.1%</text>
+            <text class="scatter-label" x="625" y="246" text-anchor="end">음·식료품 9.4%</text>
+            <text class="scatter-label" x="340" y="253" text-anchor="end">생활용품 7.6%</text>
+            <text class="scatter-label" x="395" y="217" text-anchor="end">가전 16.7%</text>
+          </svg>
+          <p class="axis-note">점의 위치는 규모와 비중을 동시에 보여 줍니다. 인과관계가 아닙니다.</p>
+        </div>
+        <aside class="kpi-col">
+          <div class="kpi">
+            <span class="kpi-value" style="color: var(--accent);">45.6%</span>
+            <span class="kpi-label">의복 병행몰 비중</span>
+          </div>
+          <div class="stat-list">
+            <div class="stat-row"><span>여행서비스</span><b>51.3%</b></div>
+            <div class="stat-row"><span>가방</span><b>54.7%</b></div>
+            <div class="stat-row"><span>전체 평균</span><b>22.5%</b></div>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01] · 2026-08 p) 기준
+      </footer>
+    </section>
+
+    <section class="slide" id="S10" data-tone="lilac">
+      <span class="slide-no">S10</span>
+      <header class="slide-head">
+        <p class="eyebrow">10 · 해석 프레임</p>
+        <h2>차이를 설명하는 세 가지 경로</h2>
+        <p class="lead">
+          관찰된 차이를 곧바로 인과로 읽지 않기 위해, 가능한 설명을 세 갈래로 나눠 검토합니다.
+        </p>
+      </header>
+
+      <div class="caution-grid" style="margin-top: 34px;">
+        <article class="caution-card">
+          <span class="num">01</span>
+          <h3>접점</h3>
+          <p>사이즈·핏 확인, 교환·반품 같은 오프라인 접점이 온라인 구매 결정에 영향을 줄 수 있습니다.</p>
+          <span class="card-foot">→ 접점</span>
+        </article>
+        <article class="caution-card">
+          <span class="num">02</span>
+          <h3>신뢰</h3>
+          <p>오프라인에서 쌓은 브랜드 경험과 멤버십이 온라인 구매의 신뢰를 높일 수 있습니다.</p>
+          <span class="card-foot">→ 신뢰</span>
+        </article>
+        <article class="caution-card">
+          <span class="num">03</span>
+          <h3>가격·상품폭</h3>
+          <p>전용몰의 가격 경쟁력, 상품 구색, 배송·반품 정책이 8월 역전을 만들었을 수 있습니다.</p>
+          <span class="card-foot">→ 반론</span>
+        </article>
+      </div>
+      <p class="method-banner"><strong>검증 순서:</strong> 접점 데이터 → 신뢰 설문 → 가격·배송 정책 비교</p>
+
+      <footer class="source">
+        데이터: 국가데이터처, 온라인쇼핑동향조사 [R01] · 설명은 검증 대상
+      </footer>
+    </section>
+
+    <section class="slide" id="S11" data-tone="cream">
+      <span class="slide-no">S11</span>
+      <header class="slide-head">
+        <p class="eyebrow">11 · 접점</p>
+        <h2>접점이 구매를 바꿀 수 있다</h2>
+        <p class="lead">
+          의류의 사이즈·핏 리스크가 크다면, 오프라인에서 확인하는 경험이 구매 전후에
+          개입할 수 있습니다.
+        </p>
+      </header>
+
+      <div class="journey">
+        <div class="journey-step">
+          <span class="num">01</span>
+          <h3>탐색</h3>
+          <p>온라인에서 상품을 찾고 가격을 비교합니다.</p>
+        </div>
+        <div class="journey-arrow">→</div>
+        <div class="journey-step offline">
+          <span class="num">02 · 오프라인 접점</span>
+          <h3>피팅·확인</h3>
+          <p>매장에서 사이즈와 소재를 확인합니다.</p>
+        </div>
+        <div class="journey-arrow">→</div>
+        <div class="journey-step">
+          <span class="num">03</span>
+          <h3>구매</h3>
+          <p>온라인 또는 매장에서 결제합니다.</p>
+        </div>
+        <div class="journey-arrow">→</div>
+        <div class="journey-step offline">
+          <span class="num">04 · 오프라인 접점</span>
+          <h3>교환·반품</h3>
+          <p>매장에서 교환·반품을 처리할 수 있습니다.</p>
+        </div>
+      </div>
+      <p class="method-banner"><strong>검증 아이디어:</strong> 반품·교환율, 오프라인 방문→온라인 구매 전환, 사이즈 관련 CS 비중</p>
+
+      <footer class="source">
+        데이터: 국가데이터처, 온라인쇼핑동향조사 [R01] · 설명은 검증 대상
+      </footer>
+    </section>
+
+    <section class="slide" id="S12" data-tone="mint">
+      <span class="slide-no">S12</span>
+      <header class="slide-head">
+        <p class="eyebrow">12 · 신뢰</p>
+        <h2>신뢰가 온라인 구매를 뒷받침할 수 있다</h2>
+        <p class="lead">
+          병행몰은 오프라인에서 쌓은 브랜드 경험을 온라인 구매의 신뢰로 연결할 수 있습니다.
+        </p>
+      </header>
+
+      <div class="trust-path">
+        <div class="trust-node">
+          <span class="num">01</span>
+          <h3>오프라인 경험</h3>
+          <p>매장 방문, 제품 확인, 브랜드 접촉</p>
+        </div>
+        <div class="trust-arrow">→</div>
+        <div class="trust-node accent">
+          <span class="num">02</span>
+          <h3>브랜드 신뢰</h3>
+          <p>품질·교환·서비스에 대한 기대</p>
+        </div>
+        <div class="trust-arrow">→</div>
+        <div class="trust-node">
+          <span class="num">03</span>
+          <h3>온라인 구매</h3>
+          <p>같은 브랜드의 온라인 채널에서 결제</p>
+        </div>
+      </div>
+      <p class="method-banner"><strong>검증 아이디어:</strong> 브랜드 신뢰 설문, 오프라인 방문 이력과 온라인 구매 전환</p>
+
+      <footer class="source">
+        데이터: 국가데이터처, 온라인쇼핑동향조사 [R01] · 설명은 검증 대상
+      </footer>
+    </section>
+
+    <section class="slide" id="S13" data-tone="plain">
+      <span class="slide-no">S13</span>
+      <header class="slide-head">
+        <p class="eyebrow">13 · 반론</p>
+        <h2>8월 역전은 다른 힘일 수 있다</h2>
+        <p class="lead">
+          “병행몰이 항상 강하다”는 결론은 성급합니다. 전용몰 쪽 요인도 함께 검토해야 합니다.
+        </p>
+      </header>
+
+      <div class="versus-grid">
+        <article class="versus-card">
+          <h3>전용몰 쪽 가능한 요인</h3>
+          <ul>
+            <li>가격 비교와 할인 프로모션</li>
+            <li>넓은 상품 구색과 재고</li>
+            <li>배송·반품 정책의 편의성</li>
+          </ul>
+          <span class="card-foot">→ 8월 -17.8% (병행몰 -21.1%)</span>
+        </article>
+        <article class="versus-card">
+          <h3>병행몰 쪽 가능한 요인</h3>
+          <ul>
+            <li>오프라인 피팅·교환 접점</li>
+            <li>브랜드 경험과 멤버십</li>
+            <li>온·오프라인 통합 서비스</li>
+          </ul>
+          <span class="card-foot">→ 누적 -29.5% (전용몰 -37.9%)</span>
+        </article>
+      </div>
+      <p class="method-banner"><strong>판별 아이디어:</strong> 8월 프로모션 캘린더와 채널별 가격·배송 정책 비교</p>
+
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01] · 해석은 검증 대상
+      </footer>
+    </section>
+
+    <section class="slide" id="S14" data-tone="cream">
+      <span class="slide-no">S14</span>
+      <header class="slide-head">
+        <p class="eyebrow">14 · 미해결 질문</p>
+        <h2>7~8월 급감, 원인은 데이터에 없다</h2>
+        <p class="lead">
+          전체 의류 거래액은 7월 -15.57%, 8월 -19.33%로 급감했습니다.
+          하지만 이 표에는 원인을 설명하는 변수가 없습니다.
+        </p>
+      </header>
+
+      <div class="stat-inline">
+        <div class="stat-row"><span>7월 전체</span><b>-15.57%</b></div>
+        <div class="stat-row"><span>8월 전체</span><b>-19.33%</b></div>
+        <div class="stat-row"><span>관찰 기간</span><b>6개월</b></div>
+      </div>
+
+      <div class="caution-grid" style="margin-top: 30px;">
+        <article class="caution-card">
+          <span class="num">?</span>
+          <h3>날씨·계절성?</h3>
+          <p>여름철 의류 수요 변화가 영향을 줄 수 있지만, 이 표에는 날씨 변수가 없습니다.</p>
+          <span class="card-foot">→ 별도 기상·소비 데이터 필요</span>
+        </article>
+        <article class="caution-card">
+          <span class="num">?</span>
+          <h3>프로모션 일정?</h3>
+          <p>주요 할인 행사와 프로모션 일정은 거래액을 단기간에 움직일 수 있습니다.</p>
+          <span class="card-foot">→ 캠페인 캘린더 필요</span>
+        </article>
+        <article class="caution-card">
+          <span class="num">?</span>
+          <h3>소비심리?</h3>
+          <p>가처분소득·소비심리·금리 같은 거시 변수도 후보이지만 이 표에는 없습니다.</p>
+          <span class="card-foot">→ 거시 지표 필요</span>
+        </article>
+      </div>
+
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01] · 원인 변수는 미포함
+      </footer>
+    </section>
+
+    <section class="slide" id="S15" data-tone="cream">
+      <span class="slide-no">S15</span>
+      <header class="slide-head">
+        <p class="eyebrow">15 · 한계</p>
+        <h2>이 숫자가 말하지 않는 것</h2>
+        <p class="lead">좋은 데이터 분석은 “무엇을 말할 수 없는지”를 함께 밝힙니다.</p>
+      </header>
+
+      <div class="caution-grid" style="margin-top: 32px;">
+        <article class="caution-card">
+          <span class="num">01</span>
+          <h3>온라인만 본다</h3>
+          <p>병행몰은 오프라인 매출이 아니라, 오프라인 매장을 가진 사업자의 <b>온라인 거래</b>입니다.</p>
+          <span class="card-foot">→ “오프라인 매출”로 읽으면 오독</span>
+        </article>
+        <article class="caution-card">
+          <span class="num">02</span>
+          <h3>6개월뿐이다</h3>
+          <p>계절성과 구조적 추세를 단정할 수 없습니다. 3~8월의 관찰일 뿐입니다.</p>
+          <span class="card-foot">→ 추세가 아니라 관찰</span>
+        </article>
+        <article class="caution-card">
+          <span class="num">03</span>
+          <h3>7·8월은 잠정치다</h3>
+          <p>p) 표시가 붙은 값은 이후 수정될 수 있습니다. 증감률도 함께 달라질 수 있습니다.</p>
+          <span class="card-foot">→ 숫자가 바뀔 수 있음</span>
+        </article>
+      </div>
+
+      <p class="axis-note" style="margin-top: 18px;">
+        참고: 2026-07 의복 계는 전용몰+병행몰 합과 1백만 원 차이가 납니다(원자료 반올림). 결론에는 영향이 없습니다.
+      </p>
+      <p class="closing">
+        그래서 결론은 “병행몰이 더 강하다”가 아니라,
+        <b>“접점 가설을 더 검증하자”</b>입니다.
+      </p>
+
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01] · 데이터 해석 주의사항
+      </footer>
+    </section>
+
+    <section class="slide" id="S16" data-tone="navy">
+      <span class="slide-no">S16</span>
+      <header class="slide-head">
+        <p class="eyebrow">16 · 결론</p>
+        <h2>병행몰 우위가 아니라, 접점 가설</h2>
+        <p class="lead">
+          누적과 월별을 함께 보면 “병행몰이 항상 강하다”는 결론은 성립하지 않습니다.
+        </p>
+      </header>
+
+      <div class="takeaway-grid">
+        <article class="takeaway">
+          <span class="num">01 · 누적</span>
+          <h3>병행몰이 덜 줄었다</h3>
+          <p><span class="big">-29.5%</span></p>
+          <p>전용몰은 -37.9%. 3→8월 누적 기준입니다.</p>
+        </article>
+        <article class="takeaway">
+          <span class="num">02 · 반전</span>
+          <h3>8월에는 순서가 바뀌었다</h3>
+          <p><span class="big">-21.1%</span></p>
+          <p>8월 병행몰. 전용몰은 -17.8%였습니다.</p>
+        </article>
+        <article class="takeaway">
+          <span class="num">03 · 해석</span>
+          <h3>접점은 아직 가설</h3>
+          <p><span class="big">?</span></p>
+          <p>피팅·교환·신뢰가 실제로 작동했는지는 별도 데이터가 필요합니다.</p>
+        </article>
+      </div>
+
+      <p class="closing">
+        다음 질문: 의류 소비자는 <b>어디서 확인하고, 어디서 결제하는가?</b>
+      </p>
+
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01] · 3→8월 누적 / 7→8월 월별
+      </footer>
+    </section>
+
+    <section class="slide" id="S17" data-tone="plain">
+      <span class="slide-no">S17</span>
+      <header class="slide-head">
+        <p class="eyebrow">17 · 참고문헌</p>
+        <h2>참고문헌</h2>
+        <p class="lead">수치와 정의는 아래 1차 자료에서 가져왔습니다.</p>
+      </header>
+
+      <div class="references-list">
+        <div class="ref-item">
+          <span class="ref-id">[R01]</span>
+          <div>
+            <div class="ref-title">온라인쇼핑몰 운영형태별/상품군별거래액 (DT_1KE10051)</div>
+            <div class="ref-meta">
+              국가데이터처, 「온라인쇼핑동향조사」 · 조회기간 2026.03–08 · 단위 백만 원 · 접속 2026-10-25<br />
+              https://kosis.kr/statHtml/statHtml.do?orgId=101&amp;tblId=DT_1KE10051&amp;conn_path=I3
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="ref-note">
+        추가 문헌(R02–R06: 조사개요, 옴니채널 소비자 행태, 반품·사이즈, 온·오프라인 연계 사례,
+        2026년 7~8월 소비 둔화)은 다음 단계에서 보강합니다. 현재 해석 슬라이드는 인과를 주장하지 않습니다.
+      </p>
+
+      <p class="qna">Q &amp; A</p>
+
+      <footer class="source">
+        출처: 국가데이터처, 온라인쇼핑동향조사 (2026.08 잠정) [R01]
+      </footer>
+    </section>
+
+  </main>
+
+  <div class="hud" role="group" aria-label="발표 도구">
+    <button type="button" data-theme-set="figma" class="active">FIGMA</button>
+    <button type="button" data-theme-set="ppt">PPT</button>
+    <span class="page" id="page">1 / 18</span>
+    <button type="button" id="replayBtn" title="현재 슬라이드 애니메이션 다시 재생 (R)">REPLAY</button>
+  </div>
+
+  <script src="assets/vendor/anime.min.js"></script>
+  <script src="assets/js/deck-full.js"></script>
+</body>
+</html>
