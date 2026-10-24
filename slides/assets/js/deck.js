@@ -15,6 +15,12 @@
     return document.getElementById(id);
   }
 
+  function embeddedAsset(kind, theme) {
+    const embedded = window.__DECK_EMBEDDED__;
+    if (!embedded || !embedded[kind]) return null;
+    return embedded[kind][theme] || embedded[kind].figma || null;
+  }
+
   function animateCounter(element, target, decimals, delay) {
     if (!element) return;
     const proxy = { value: 0 };
@@ -242,12 +248,14 @@
       button.setAttribute("aria-pressed", String(active));
     });
     const chart = byId("categoryChart");
-    if (chart) chart.src = "assets/charts/category_omni_" + theme + ".svg";
+    if (chart) {
+      chart.src = embeddedAsset("chart", theme) || "assets/charts/category_omni_" + theme + ".svg";
+    }
     const video = byId("phaseVideo");
     if (video) {
       const suffix = theme === "ppt" ? "_ppt" : "";
-      const nextSrc = "assets/video/phase_reversal" + suffix + ".mp4";
-      const nextPoster = "assets/video/phase_poster" + suffix + ".png";
+      const nextSrc = embeddedAsset("video", theme) || "assets/video/phase_reversal" + suffix + ".mp4";
+      const nextPoster = embeddedAsset("poster", theme) || "assets/video/phase_poster" + suffix + ".png";
       if (video.getAttribute("src") !== nextSrc) {
         video.pause();
         video.setAttribute("src", nextSrc);

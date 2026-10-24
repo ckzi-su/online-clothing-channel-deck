@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>슬라이드 덱 다운로드</title>
+  <style>
+    :root { color-scheme: light; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    }
+    main { width: min(720px, calc(100vw - 48px)); }
+    h1 { margin: 0 0 8px; font-size: 34px; letter-spacing: -0.03em; }
+    p { margin: 0 0 28px; color: #6e6e73; line-height: 1.5; }
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 22px 24px;
+      margin-bottom: 12px;
+      border: 1px solid #e0e0e0;
+      border-radius: 18px;
+      background: #fff;
+    }
+    .card h2 { margin: 0 0 4px; font-size: 18px; }
+    .card span { color: #6e6e73; font-size: 13px; }
+    .actions { display: flex; gap: 8px; flex-shrink: 0; }
+    a {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: #0066cc;
+      color: #fff;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    a.ghost { background: #fff; color: #0066cc; border: 1px solid #0066cc; }
+    footer { margin-top: 22px; color: #86868b; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>슬라이드 덱 다운로드</h1>
+    <p>아래 파일은 CSS·JS·영상·차트가 모두 포함된 단일 HTML입니다. 제출용으로 ZIP을 권장합니다.</p>
+
+    <section class="card">
+      <div>
+        <h2>전체 덱 · 18장</h2>
+        <span>FIGMA / PPT 테마 · 모션 포함 · 약 1.5MB</span>
+      </div>
+      <div class="actions">
+        <a href="download/online-clothing-channel-deck.zip" download>ZIP</a>
+        <a class="ghost" href="download/online-clothing-channel-deck.html" download>HTML</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <div>
+        <h2>하이라이트 샘플 · 6장</h2>
+        <span>H00–H05 · 모션 포함 · 약 1.4MB</span>
+      </div>
+      <div class="actions">
+        <a href="download/highlight.zip" download>ZIP</a>
+        <a class="ghost" href="download/highlight.html" download>HTML</a>
+      </div>
+    </section>
+
+    <footer>GitHub Pages · online-clothing-channel-deck</footer>
+  </main>
+</body>
+</html>

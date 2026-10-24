@@ -25,6 +25,13 @@ jobs:
       - uses: actions/configure-pages@v5
         with:
           enablement: true
+      - name: Build standalone HTML downloads
+        run: |
+          python3 scripts/bundle_deck.py --input slides/index.html --output slides/download/online-clothing-channel-deck.html
+          python3 scripts/bundle_deck.py --input slides/highlight.html --output slides/download/highlight.html
+          cd slides/download
+          zip -q online-clothing-channel-deck.zip online-clothing-channel-deck.html
+          zip -q highlight.zip highlight.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: slides
